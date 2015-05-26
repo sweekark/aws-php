@@ -3,7 +3,7 @@
 ##Create a new aws account
 http://aws.amazon.com/account/
 
-##created new instance from the dashboard console to get the flow
+##Created new instance from the dashboard console to get the flow
 https://ap-southeast-1.console.aws.amazon.com/console/home?region=ap-southeast-1
 
 ##Install aws cli to run some cli commands
