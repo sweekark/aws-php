@@ -21,12 +21,12 @@ http://aws.amazon.com/sdk-for-php/
 
 #configure the sample script 
 * Create a key value pair
-** create key value pair using the cli command 
-** ec2-create-keypair my-key-pair
-** Create a file named my-key-pair.pem and paste the entire key
-** Do a chmod 400 my-key-pair.pem
+  ** create key value pair using the cli command 
+  ** ec2-create-keypair my-key-pair
+  ** Create a file named my-key-pair.pem and paste the entire key
+  ** Do a chmod 400 my-key-pair.pem
 * create a security group 
-** ec2-create-group my-security-group -d "My security group"
+  ** ec2-create-group my-security-group -d "My security group"
 * mention the region you want the instance to be created
 * Run the php script
-** php ec2-client.php
+  ** php ec2-client.php
